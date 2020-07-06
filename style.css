@@ -1,0 +1,28 @@
+.container-container-input{
+  display:grid;
+  grid-template-rows:1fr 1fr 1fr;
+  border:1px solid black;
+}
+
+.container-input{
+  border:1px solid black;
+  display:grid;
+  grid-template-rows:1fr 1fr 1fr ;
+  margin:15px;
+}
+.input{
+  display:block;
+}
+#produtos{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border:1px solid red;
+  height:200px;
+
+}
+.produto{
+  text-align:center;
+  height:50%;
+  width:50%;
+  border:1px solid black;
+}
